@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+       /**
+ * TODO
+ * 1. Buatlah variabel dengan nama restaurant yang object dengan ketentuan berikut:
+ *    - Memiliki properti bernama "name"
+ *       - Bertipe data string
+ *       - Bernilai apa pun, asalkan tidak string kosong atau null.
+ *    - Memiliki properti bernama "city"
+ *       - Bertipe data string
+ *       - Bernilai apa pun, asalkan tidak string kosong atau null.
+ *    - Memiliki properti "favorite drink"
+ *       - Bertipe data string
+ *       - Bernilai apa pun, asalkan tidak string kosong atau null.
+ *    - Memiliki properti "favorite food"
+ *       - Bertipe data string
+ *       - Bernilai apa pun, asalkan tidak string kosong atau null.
+ *    - Memiliki properti "isVegan"
+ *       - Bertipe data boolean
+ *       - Bernilai boolean apa pun.
+ *
+ * 2. Buatlah variabel bernama name.
+ *    Kemudian isi dengan nilai name dari properti object restaurant
+ * 3. Buatlah variabel bernama favoriteDrink.
+ *    Kemudian isi dengan nilai "favorite drink" dari properti object restaurant
+ */
+
+
+// TODO
+const restaurant = {
+  name: "Kopi Daong",
+  city: "Bogor",
+  "favorite drink": "Coffee Milk Boba",
+  "favorite food": "Roti Bakar",
+  isVegan: true,
+};
+const name = restaurant.name;
+const favoriteDrink = restaurant["favorite drink"];
+console.log("saya minum " + favoriteDrink + " "+ "di" + " " + name); 
+
+/**
+ * Hiraukan kode di bawah ini
+ */
+module.exports = { restaurant, name, favoriteDrink };
+        </script>
+</body>
+</html>
